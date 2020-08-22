@@ -19,6 +19,7 @@
 		27C6E1831C972FFC0079AF06 /* TParserListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C6E17B1C972FFC0079AF06 /* TParserListener.cpp */; };
 		27C6E1841C972FFC0079AF06 /* TParserVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27C6E17D1C972FFC0079AF06 /* TParserVisitor.cpp */; };
 		37F1356D1B4AC02800E0CACF /* antlrcpp_Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37F1356C1B4AC02800E0CACF /* antlrcpp_Tests.mm */; };
+		72C2963A24F0F9B8004AF387 /* WASMObjectiveCParserListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72C2963824F0F9B7004AF387 /* WASMObjectiveCParserListener.cpp */; };
 		72CC798024C4219A004B7CCD /* ObjectiveCPreprocessorParserBaseListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CC796924C42198004B7CCD /* ObjectiveCPreprocessorParserBaseListener.cpp */; };
 		72CC798124C4219A004B7CCD /* ObjectiveCParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CC796B24C42198004B7CCD /* ObjectiveCParser.cpp */; };
 		72CC798224C4219A004B7CCD /* ObjectiveCPreprocessorParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 72CC796C24C42198004B7CCD /* ObjectiveCPreprocessorParser.cpp */; };
@@ -106,6 +107,8 @@
 		37F135681B4AC02800E0CACF /* antlrcpp Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "antlrcpp Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F1356B1B4AC02800E0CACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37F1356C1B4AC02800E0CACF /* antlrcpp_Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = antlrcpp_Tests.mm; sourceTree = "<group>"; };
+		72C2963824F0F9B7004AF387 /* WASMObjectiveCParserListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WASMObjectiveCParserListener.cpp; sourceTree = "<group>"; };
+		72C2963924F0F9B8004AF387 /* WASMObjectiveCParserListener.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WASMObjectiveCParserListener.hpp; sourceTree = "<group>"; };
 		72CC796924C42198004B7CCD /* ObjectiveCPreprocessorParserBaseListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectiveCPreprocessorParserBaseListener.cpp; sourceTree = "<group>"; };
 		72CC796B24C42198004B7CCD /* ObjectiveCParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectiveCParser.cpp; sourceTree = "<group>"; };
 		72CC796C24C42198004B7CCD /* ObjectiveCPreprocessorParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectiveCPreprocessorParser.cpp; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				27C66A691C9591280021E494 /* main.cpp */,
 				27C66A731C9592400021E494 /* TLexer.g4 */,
 				27C66A741C9592400021E494 /* TParser.g4 */,
+				72C2963824F0F9B7004AF387 /* WASMObjectiveCParserListener.cpp */,
+				72C2963924F0F9B8004AF387 /* WASMObjectiveCParserListener.hpp */,
 			);
 			path = "antlr4-cpp-demo";
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				270925B11CDB455B00522D32 /* TLexer.cpp in Sources */,
 				27C6E1831C972FFC0079AF06 /* TParserListener.cpp in Sources */,
 				27C6E1811C972FFC0079AF06 /* TParserBaseListener.cpp in Sources */,
+				72C2963A24F0F9B8004AF387 /* WASMObjectiveCParserListener.cpp in Sources */,
 				27C6E1841C972FFC0079AF06 /* TParserVisitor.cpp in Sources */,
 				72CC798A24C4219A004B7CCD /* ObjectiveCPreprocessorParserVisitor.cpp in Sources */,
 				27C6E1801C972FFC0079AF06 /* TParser.cpp in Sources */,
